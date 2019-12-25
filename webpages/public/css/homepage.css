@@ -1,0 +1,156 @@
+body{
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* fallback for old browsers */
+    font-family: 'Ubuntu';
+}
+
+#top_menu{
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#main_div{
+    height: 100%;
+    margin-top: 0%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('/assets/car.jpg');
+    background-repeat: no-repeat;
+}
+
+#main_btn{
+    padding-top: 25%;
+    padding-left: 7%;
+    margin-top: 0;
+    color: #a2ab58;
+    font-family: 'Ubuntu';
+    margin-bottom: 0%;
+}
+
+#title{
+    font-size: 40.0px;
+    font-family: 'Ubuntu';
+    margin-bottom: 0%;
+}
+
+#main_content_para{
+    font-size: 24.0px;
+    font-family: 'Ubuntu';
+}
+
+.ui.grid{
+    padding: 5%;
+}
+.nine.wide.column{
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}
+.seven.wide.column{
+    font-family: 'Ubuntu';
+    font-size: 20px;
+}
+.ui.button{
+    margin-top: 0%;
+}
+.ui.segment{
+    margin-bottom: 0%;
+}
+
+.ui.segment.message{
+    background: #BABAB8;
+}
+
+#insta{
+    background-color: crimson;
+}
+#btn-grp{
+    padding: 2%;
+    color: #fff;
+    font-family: 'Ubuntu';
+}
+#final_div{
+    padding-left: 2%;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+}
+#drop_bio{
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}
+#comfort_tags{
+    font-size: 24px;
+    font-family: 'Ubuntu';
+}
+#floating{
+    margin: 0px;
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#floating_content{
+    font-family: 'Ubuntu';
+    font-size: 24px;
+}
+.ui.inverted.green.big.button{
+    margin-top: 0px;
+}
+.ui.huge.header{
+    /*This is where we work */
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.ui.center.aligned.segment.error.message{
+    margin-top: 0px;
+}
+.ui.form.segment{
+    padding: 1%;
+    margin: 1%;
+}
+.ui.center.aligned.dividing.header{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.ui.segment.error.message:hover{
+    background-color: #fff;
+    box-shadow: #000;
+}
+#messageModal{
+    display: none;
+    width: 50%;
+}
+#third{
+    padding: 2%;
+    margin: 0%;
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#four{
+    margin: 0%;
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#five{
+    margin: 0%;
+}
+
+#getTouchForm{
+    background: #E8E8DF;
+}
+
+#whatsapp{
+    background-color: darkgreen;
+    color: #fff;
+}
+
+#last{
+    background: #BABAB8;
+}
