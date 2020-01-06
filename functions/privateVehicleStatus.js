@@ -1,14 +1,25 @@
 "use strict";
 
-const admin = require('firebase-admin');
+const admin = require("firebase-admin");
+const appConstant = require("../constants/appConstant");
+
+//Database Invocation
+const dB = admin.firestore();
+const PrivateVehicle = dB.collection("PrivateVehicles");
 
 var updateVehicleStatus = {};
-updateVehicleStatus.available = async function (vehicleID) {
-    await admin.firestore().collection('PrivateVehicles').doc(vehicleID).update({ status: "AVAILABLE", user: "" });
-}
+updateVehicleStatus.available = async vehicleID => {
+  await PrivateVehicle.doc(vehicleID).update({
+    status: appConstant.statusAvailable,
+    user: ""
+  });
+};
 
-updateVehicleStatus.unavailable = async function (vehicleID, userId) {
-    await admin.firestore().collection('PrivateVehicles').doc(vehicleID).update({ status: "ASSIGNED", user: userId });
-}
+updateVehicleStatus.unavailable = async (vehicleID, userId) => {
+  await PrivateVehicle.doc(vehicleID).update({
+    status: appConstant.statusAssigned,
+    user: userId
+  });
+};
 
 module.exports = updateVehicleStatus;
